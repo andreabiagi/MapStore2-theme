@@ -45,8 +45,20 @@ a:hover, a:active, a:link, a:focus  {
 	margin-bottom: 15px;
 }
 
+.bottom5 {
+	margin-bottom: 5px;
+}
+
+.padding5 {
+	padding:5px;
+}
+
 .padding0 {
 	padding:0;
+}
+
+.left15 {
+	margin-left:15px;
 }
 
 .padding10-right {
@@ -290,6 +302,11 @@ a:hover, a:active, a:link, a:focus  {
 	background-size: cover;
 }
 
+.map-thumb-015 { 
+	background: url(../../../samples/map/img/img-index/015.jpg);
+	background-size: cover;
+}
+
 .search-wrap-home .search-wrap { 
 	width: 90%;
 	margin-left: auto;
@@ -346,9 +363,21 @@ a:hover, a:active, a:link, a:focus  {
 	height: 50px;
 	width: 50px;
 }
+
+.square-button-sm {
+	height: 25px;
+	width: 25px;
+}
+
 .square-button .icon {
-	margin-left: -7px;
+	margin-left: -6px;
     margin-top: 8px;
+}
+
+.square-button-sm .icon {
+	margin-left: -2px;
+    margin-top: -1px;
+	font-size:20px;
 }
 
 .dropdown-menu button {
@@ -366,8 +395,6 @@ a:hover, a:active, a:link, a:focus  {
 .dropdown-menu button:hover {
 	background-color: #eeeeee;
 }
-
-
 
 .dropdown-menu a {
 	text-decoration: none;
@@ -390,7 +417,6 @@ a:hover, a:active, a:link, a:focus  {
 	position: absolute;
 	bottom: 5px;
 	right: 60px;
-	width: 180px;
 	height: 50px;
 }
 
@@ -400,8 +426,12 @@ a:hover, a:active, a:link, a:focus  {
 
 .info-container{
 	height:50px;
-	width:50px;
-	float:left;
+	margin-right:10px;
+}
+
+.lat-long{
+	padding:5px 10px;
+	background-color:#ffffff;	
 }
 
 #scale { /* scale widget */
@@ -441,12 +471,12 @@ a:hover, a:active, a:link, a:focus  {
     display:block;
 }	
 
-.select-cord {
+.label-width-lg {
 	width: 130px;
 }
 
-.select-format {
-	width: 80px;
+.label-width-md {
+	width: 90px;
 }
 
 .label-scale {position:relative; width: 120px;}
@@ -515,11 +545,11 @@ navbar-dx .search-wrap {
 	height: 50px
 }
 .scale .line {
-	background-color:#ffffff;
 	height:25px;
 }
 .scale .choose-scale {
-	/* background-color: pink; */
+	height:25px;
+	margin-bottom:5px;
 }
 /* working tool */
 .sidebar {
@@ -613,7 +643,17 @@ navbar-dx .search-wrap {
 	height: 100px;
 	width: 260px;
 	background-color: pink;
-	margin-top: 15px;
+	margin-top: 8px;
+}
+
+.map-container .btn {
+	position:absolute;
+	margin-top:50px;
+	margin-left:210px;
+}
+
+.map-container .btn .icon {
+	margin-left:-4px;
 }
 
 .sidebar .working .draw-button button {
@@ -669,7 +709,7 @@ navbar-dx .search-wrap {
 }
 
 .modal-body textarea {
-  margin-top:15px;
+  margin-top:5px;
   width:260px;
   padding:5px;
   border:1px solid #078AA3;
@@ -832,7 +872,152 @@ navbar-dx .search-wrap {
 	font-weight:bold
 }
 
+/* print */
 
+.panel580 .modal-header {
+	width:290px;
+}
+
+.panel580 {
+	width:290px;
+}
+
+.wrap580{
+	width:260px;
+	padding:15px;
+}
+
+.box260{
+	width:260px;
+}
+
+.opacity-legend{
+	opacity:0.3;
+}
+
+.label-print {position:relative; width: 120px;}
+
+.label-print:after {
+    content:'c';
+    font:20px "icon-mapstore2", monospace;
+    color:#078aa3;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+    right:4px; top:6px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+}
+
+.label-print:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:25px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+/* ---------------------catalog-------------------- */
+
+.list-catalog li{
+	width:260px;
+	height:150px;
+}
+
+/* ---------------------checkbox new-------------------- */
+
+input[type=checkbox],
+input[type=radio] {
+        opacity: 0;
+        position: absolute;
+        z-index: 12;
+}
+
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+        outline: none !important;
+}
+
+input[type=checkbox]+.lbl,
+input[type=radio]+.lbl {
+        position: relative;
+        z-index: 11;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        min-height: 20px;
+        min-width: 20px;
+        font-weight: normal;
+}
+
+
+input[type=checkbox]+.lbl::before,
+input[type=radio]+.lbl::before {
+        font-size: 22px;
+        color: #078aa3;
+        content: "";
+        background-color: #FAFAFA;
+        border: 1px solid #078aa3; /* color checkbox border */
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 0;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        height: 20px; /* checkbox size */
+		width: 20px;
+        line-height: 13px;
+}
+
+input[type=checkbox]:checked+.lbl::before,
+input[type=radio]:checked+.lbl::before {
+        display: inline-block;
+        content: '\77';
+        background-color: #F5F8FC;
+        border-color: #078aa3;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+}
+
+input[type=checkbox]:hover+.lbl::before,
+input[type=radio]:hover+.lbl::before,
+input[type=checkbox]+.lbl:hover::before,
+input[type=radio]+.lbl:hover::before {
+        border-color: #078aa3;
+}
+
+input[type=checkbox]:active+.lbl::before,
+input[type=radio]:active+.lbl::before,
+input[type=checkbox]:checked:active+.lbl::before,
+input[type=radio]:checked:active+.lbl::before {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type=checkbox]:disabled+.lbl::before,
+input[type=radio]:disabled+.lbl::before,
+input[type=checkbox][disabled]+.lbl::before,
+input[type=radio][disabled]+.lbl::before,
+input[type=checkbox].disabled+.lbl::before,
+input[type=radio].disabled+.lbl::before {
+        background-color: #DDD !important;
+        border-color: #078aa3 !important;
+        box-shadow: none !important;
+        color: #BBB;
+}
+
+input[type=radio]+.lbl::before {
+        border-radius: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+}
+
+input[type=radio]:checked+.lbl::before {
+        content: "\77";
+}	
 
 @media (min-width: 768px) {
 	
@@ -840,19 +1025,6 @@ navbar-dx .search-wrap {
 	position:absolute;
 	bottom:20px;
 	left:20px;	
-}
-
-.with-love{
-	position:absolute;
-	width:90px;
-	height:27px;
-	bottom:5px;
-	margin-left:auto;
-	margin-right:auto;
-	left:0;
-	right:0;
-	background-image:url(../../../samples/map/img/made-in-italy-logo.png);
-	background-size:contain;
 }
 
 .map-logo{
@@ -924,6 +1096,11 @@ a:hover .map-thumb {
 }
 
 /* INFO PANEL */
+
+.panel580 .modal-header {
+	width:580px;
+}
+
 .info-panel {
 	width:290px;
 }
@@ -932,40 +1109,31 @@ a:hover .map-thumb {
 	width:290px;
 }
 
-/* PRINT */
+/* PRINT big */
 
-.print {
-	width: 580px;
-	}
-.print-side {
-	width: 50%;
-	}	
-	
-.label-print {position:relative; width: 120px;}
-
-.label-print:after {
-    content:'c';
-    font:20px "icon-mapstore2", monospace;
-    color:#078aa3;
-    -webkit-transform:rotate(0deg);
-    -moz-transform:rotate(0deg);
-    -ms-transform:rotate(0deg);
-    transform:rotate(0deg);
-    right:4px; top:6px;
-    padding:0 0 2px;
-    position:absolute;
-    pointer-events:none;
+.panel580 .modal-content {
+	width:580px;
 }
 
-.label-print:before {
-    content:'';
-    right:6px; top:0px;
-    width:20px; height:25px;
-    background:#f8f8f8;
-    position:absolute;
-    pointer-events:none;
-    display:block;
-}	
+.panel580 {
+	width:580px;
+	background-color:#ffffff;
+}
+
+.wrap580{
+	width:580px;
+	padding:0;
+}
+
+.box260{
+	margin:15px;
+}
+
+/* ---------------------catalog-------------------- */
+
+.list-catalog li{
+	margin:15px;
+}
 
 }
  @media (min-width: 1200px) {
@@ -1003,4 +1171,18 @@ a:hover .map-thumb {
 .info-wrap{
 	width:580px;
 }
+
+.with-love{
+	position:absolute;
+	width:90px;
+	height:27px;
+	bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	background-image:url(../../../samples/map/img/made-in-italy-logo.png);
+	background-size:contain;
+}
+
 }

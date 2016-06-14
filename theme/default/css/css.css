@@ -1655,12 +1655,12 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 14px;
   line-height: inherit;
   color: #333333;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
 }
+
 label {
   display: inline-block;
   margin-bottom: 5px;
@@ -2101,6 +2101,29 @@ fieldset[disabled] .btn-default.active {
   font-size: 28px;
 }
 
+.float-left{
+	float:left
+}
+
+.btn-lg .icon {
+	margin-top:5px;
+	margin-right:5px;
+}
+
+.btn-md .icon {
+	margin-top:5px;
+	margin-right:5px;
+}
+
+.btn-sm .icon {
+	margin-right:5px;
+}
+
+.btn-xs .icon {
+	margin-top:1px;
+	margin-right:5px;
+}
+
 .btn-primary:hover {
   border: none;
 }
@@ -2351,7 +2374,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 
 }
@@ -4175,7 +4198,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 0 12px;
+  padding:12px;
   line-height: 1.428571429;
   text-decoration: none;
   color: #078aa3;
@@ -5149,8 +5172,6 @@ button.close {
   position: relative;
   background-color: #ffffff;
   border-radius: 0;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: none;
 }
@@ -5215,8 +5236,6 @@ button.close {
 	margin-top: 150px;
   }
   .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 	width:290px;
   }
   .modal-sm {
@@ -5340,8 +5359,6 @@ button.close {
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
 }
 .popover.top {
