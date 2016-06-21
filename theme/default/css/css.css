@@ -1996,10 +1996,28 @@ select[multiple].input-lg {
     text-align: right;
   }
 }
+
+.btn-lg .glyphicon {
+	margin-right:10px;
+}
+
+.btn-md .glyphicon {
+	margin-right:5px;
+}
+
+.btn-sm .glyphicon {
+	margin-right:5px;
+}
+
+.btn-xs .glyphicon {
+	margin-right:5px;
+}
+
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
   right: 15px;
 }
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -2009,7 +2027,7 @@ select[multiple].input-lg {
   cursor: pointer;
   background-image: none;
   white-space: nowrap;
-  padding: 0 12px;
+  padding:12px;
   font-size: 28px;
   line-height: 1.428571429;
   border-radius: 0;
@@ -2351,7 +2369,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 
 }
@@ -4171,7 +4189,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 0 12px;
+  padding:12px;
   line-height: 1.428571429;
   text-decoration: none;
   color: #078aa3;
@@ -5139,13 +5157,12 @@ button.close {
   width: auto;
   margin: 10px;
   margin:auto;
+  background-color:#ffffff;
 }
 .modal-content {
   position: relative;
   background-color: #ffffff;
   border-radius: 0;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: none;
 }
@@ -5208,8 +5225,6 @@ button.close {
 	margin-top: 150px;
   }
   .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 	width:290px;
   }
   .modal-sm {
