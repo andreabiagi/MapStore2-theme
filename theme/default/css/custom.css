@@ -635,7 +635,7 @@ navbar-dx .search-wrap {
 	padding: 15px;
 	margin: 0px;
 	width: 290px;
-	height:50px;
+	height:160px;
 }
 
 .sidebar .working .list-group .list-group-item ul {
@@ -683,7 +683,7 @@ navbar-dx .search-wrap {
 	height: 100px;
 	width: 260px;
 	background-color: pink;
-	margin-top: 15px;
+	margin-top:5px;
 }
 
 .sidebar .working .draw-button button {
@@ -1003,6 +1003,7 @@ input[type=radio]+.lbl::before {
 		width: 20px;
         line-height: 13px;
 		font-size:19px;
+		padding-top:4px;/* chentrare l'iconda */
 }
 
 input[type=checkbox]:checked+.lbl::before,
