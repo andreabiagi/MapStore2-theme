@@ -28,6 +28,11 @@ a:hover, a:active, a:link, a:focus  {
 	width: 290px;
 }
 
+.font11px {
+	font-size:11px;
+	line-height:11px;
+}
+
 .float-right {
 	float: right;
 }
@@ -84,6 +89,11 @@ a:hover, a:active, a:link, a:focus  {
 	margin:15px;
 }
 
+.position-absolute {
+	position:absolute;
+}
+
+
 .border-grey {
 	border:grey solid 1px;
 }
@@ -125,7 +135,7 @@ a:hover, a:active, a:link, a:focus  {
 .btn-xs .glyphicon{
 	margin-right:5px;
 	margin-top:-1px;
-	font-size:18px;
+	font-size:16px;
 }
 
 .btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{
@@ -295,7 +305,6 @@ a:hover, a:active, a:link, a:focus  {
     -moz-transition:all 0.3s ease-in;
     -o-transition:all 0.3s ease-in;
 	font-size:12px;
-	background: url(../../../samples/map/img/background-map.jpg);
 }
 
 .map-thumb-001 { 
@@ -402,6 +411,11 @@ a:hover, a:active, a:link, a:focus  {
 	background-size: cover;
 }
 
+.map-thumb-permissions { 
+	background: url(../../../samples/map/img/img-index/permissions.jpg);
+	background-size: cover;
+}
+
 .search-wrap-home .search-wrap { 
 	width: 90%;
 	margin-left: auto;
@@ -443,8 +457,8 @@ a:hover, a:active, a:link, a:focus  {
 }
 
 .square-button-md {
-	height: 30px;
-	width: 30px;
+	height: 28px;
+	width: 28px;
 }
 
 .square-button .glyphicon {
@@ -455,8 +469,8 @@ a:hover, a:active, a:link, a:focus  {
 
 .square-button-md .glyphicon {
     margin-left: -9px;
-	margin-top:-2px;
-	font-size: 23px;
+	margin-top:-3px;
+	font-size: 22px;
 }
 
 .square-button-sm {
@@ -1150,6 +1164,20 @@ input[type=radio]:checked+.lbl::before {
 .groups-area {
 	width: 260px;
 	height: 100px;
+}
+
+/* permissions  */
+
+.title-permissions{
+	padding-top:10px;
+}
+
+.can-read{
+	margin-left:100px;
+}
+
+.can-write{
+	margin-left:140px;
 }
 
 @media (min-width: 768px) {
