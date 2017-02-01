@@ -39,623 +39,729 @@
 }
 
 .glyphicon-1-bearing:before {
-  content: "\61";
+  content: "\006c";/* cambiato */
 }
 .glyphicon-1-bring-down:before {
-  content: "\62";
+  content: "\006e";/* cambiato */
 }
 .glyphicon-1-bring-up:before {
-  content: "\63";
+  content: "\006d";/* cambiato */
 }
 .glyphicon-1-close:before {
-  content: "\64";
+  content: "\0055"; /* cambiato */
 }
 .glyphicon-1-compass:before {
-  content: "\65";
+  content: "\005c"; /* cambiato */
 }
+
+.glyphicon-1-compass-alt:before {
+  content: "\005b"; /* cambiato */
+}
+
 .glyphicon-1-drag:before {
-  content: "\66";
+  content: "\0070";  /* cambiato */
 }
 .glyphicon-1-group:before {
-  content: "\68";
+  content: "\0045"; /* cambiato */
 }
 .glyphicon-1-group-add:before {
-  content: "\69";
+  content: "\0047";/* cambiato */
 }
 .glyphicon-1-group-cancel:before {
-  content: "\6a";
+  content: "\0048";/* cambiato */
 }
 .glyphicon-1-group-mod:before {
-  content: "\6b";
+  content: "\0046";/* cambiato */
 }
 .glyphicon-1-layer:before {
-  content: "\6c";
+  content: "\004e";/* cambiato */
 }
 .glyphicon-1-line:before {
-  content: "\6d";
+  content: "\004f";/* cambiato */
 }
 .glyphicon-1-map:before {
-  content: "\6e";
+  content: "\0049"; /* cambiato */
 }
 .glyphicon-1-mark:before {
-  content: "\6f";
+  content: "\0050";/* cambiato */
 }
 .glyphicon-1-mark-alt:before {
-  content: "\70";
+  content: "\0051"; /* cambiato */
 }
 .glyphicon-1-measure-area:before {
-  content: "\72";
+  content: "\0071"; /* cambiato */
 }
 .glyphicon-1-measure-lenght:before {
-  content: "\73";
+  content: "\0072"; /* cambiato */
 }
 .glyphicon-1-measure-path:before {
-  content: "\74";
+  content: "\0073"; /* cambiato */
 }
 .glyphicon-menu-hamburger:before {
-  content: "\75";
+  content: "\0052"; /* cambiato */
 }
 .glyphicon-1-menu-manage:before {
-  content: "\76";
+  content: "\0053";/* cambiato */
 }
 .glyphicon-option-horizontal:before {
-  content: "\77";
+  content: "\e234";/* cambiato */
 }
 .glyphicon-1-pdf:before {
-  content: "\78";
+  content: "\004a";/* cambiato */
 }
 .glyphicon-1-point:before {
-  content: "\79";
+  content: "\0074";/* cambiato */
 }
 .glyphicon-1-poligon:before {
-  content: "\7a";
+  content: "\0075"; /* cambiato */
 }
 .glyphicon-1-position-1:before {
-  content: "\41";
+  content: "\0054"; /* cambiato */
 }
-.glyphicon-1-screen-backward:before {
-  content: "\42";
+.glyphicon-1-history-backward:before {
+  content: "\0059"; /* cambiato */
 }
-.glyphicon-1-screen-forward:before {
-  content: "\43";
+.glyphicon-1-history-forward:before {
+  content: "\005a";/* cambiato */
 }
 .glyphicon-1-social-fb:before {
-  content: "\44";
+  content: "\0056";/* cambiato */
 }
 .glyphicon-1-social-tw:before {
-  content: "\45";
+  content: "\0057";/* cambiato */
 }
 .glyphicon-1-stilo:before {
-  content: "\46";
+  content: "\0058";/* cambiato */
 }
 .glyphicon-1-time-user:before {
-  content: "\47";
+  content: "\0041"; /* cambiato */
 }
 .glyphicon-1-user-add:before {
-  content: "\48";
+  content: "\0042";/* cambiato */
 }
 .glyphicon-1-user-cancel:before {
-  content: "\49";
+  content: "\0043"; /* cambiato */
 }
 .glyphicon-1-user-mod:before {
-  content: "\4a";
+  content: "\0044"; /* cambiato */
 }
+
+
+
+
+
+
+
+
+
+.glyphicon-1-ruler:before {
+  content: "\005f"; /* cambiato */
+}
+.glyphicon-1-ruler-alt:before {
+  content: "\0060"; /* cambiato */
+}
+.glyphicon-1-set-squadre:before {
+  content: "\0061"; /* cambiato */
+}
+.glyphicon-1-compass-arrow:before {
+  content: "\005d"; /* cambiato */
+}
+.glyphicon-1-raster:before {
+  content: "\005e"; /* cambiato */
+}
+.glyphicon-1-vector:before {
+  content: "\007c"; /* cambiato */
+}
+.glyphicon-1-vector-alt:before {
+  content: "\007d"; /* cambiato */
+}
+.glyphicon-1-circle:before {
+  content: "\0068"; /* cambiato */
+}
+.glyphicon-1-polygon:before {
+  content: "\0069"; /* cambiato */
+}
+.glyphicon-1-line:before {
+  content: "\0067"; /* cambiato */
+}
+.glyphicon-1-point:before {
+  content: "\0076"; /* cambiato */
+}
+.glyphicon-1-circle-dashed:before {
+  content: "\0065"; /* cambiato */
+}
+.glyphicon-1-polygon-dashed:before {
+  content: "\0066"; /* cambiato */
+}
+.glyphicon-1-line-dashed:before {
+  content: "\006b"; /* cambiato */
+}
+.glyphicon-1-point-dashed:before {
+  content: "\007b"; /* cambiato */
+}
+.glyphicon-1-circle-add:before {
+  content: "\0077"; /* cambiato */
+}
+.glyphicon-1-polygon-add:before {
+  content: "\0078"; /* cambiato */
+}
+.glyphicon-1-line-add:before {
+  content: "\0079"; /* cambiato */
+}
+.glyphicon-1-point-add:before {
+  content: "\007a"; /* cambiato */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .glyphicon-align-center:before {
-  content: "\4c";
+  content: "\e053"; /* cambiato */
 }
 .glyphicon-align-justify:before {
-  content: "\4d";
+  content: "\e055"; /* cambiato */
 }
 .glyphicon-align-left:before {
-  content: "\4e";
+  content: "\e052"; /* cambiato */
 }
 .glyphicon-align-right:before {
-  content: "\4f";
+  content: "\e054";/* cambiato */
 }
 .glyphicon-asterisk:before {
-  content: "\50";
+  content: "\002a"; /* cambiato */
 }
 .glyphicon-arrow-down:before {
-  content: "\51";
+  content: "\e094"; /* cambiato */
 }
 .glyphicon-arrow-left:before {
-  content: "\52";
+  content: "\e091"; /* cambiato */
 }
 .glyphicon-arrow-right:before {
-  content: "\53";
+  content: "\e092"; /* cambiato */
 }
 .glyphicon-arrow-up:before {
-  content: "\54";
+  content: "\e093";  /* cambiato */
 }
 .glyphicon-backward:before {
-  content: "\55";
+  content: "\55"; /* saltato */
 }
 .glyphicon-ban-circle:before {
-  content: "\56";
+  content: "\e090"; /* cambiato */
 }
 .glyphicon-barcode:before {
-  content: "\57";
+  content: "\e040";/* cambiato */
 }
 .glyphicon-bold:before {
-  content: "\58";
+  content: "\e048"; /* cambiato */
 }
 .glyphicon-camera:before {
-  content: "\5a";
+  content: "\e046"; /* cambiato */
 }
 .glyphicon-chevron-down:before {
-  content: "\31";
+  content: "\e259";/* cambiato */
 }
 .glyphicon-chevron-left:before {
-  content: "\32";
+  content: "\e257";/* cambiato */
 }
 .glyphicon-chevron-right:before {
-  content: "\33";
+  content: "\e258";/* cambiato */
 }
 .glyphicon-chevron-up:before {
-  content: "\34";
+  content: "\e260";/* cambiato */
 }
 .glyphicon-circle-arrow-down:before {
-  content: "\35";
+  content: "\e134";/* cambiato */
 }
 .glyphicon-circle-arrow-left:before {
-  content: "\36";
+  content: "\e132";/* cambiato */
 }
 .glyphicon-circle-arrow-right:before {
-  content: "\37";
+  content: "\e131";/* cambiato */
 }
 .glyphicon-circle-arrow-up:before {
-  content: "\38";
+  content: "\e133";/* cambiato */
 }
 .glyphicon-cloud:before {
-  content: "\39";
+  content: "\2601";/* cambiato */
 }
 .glyphicon-cloud-download:before {
-  content: "\21";
+  content: "\e197";/* cambiato */
 }
 .glyphicon-cloud-upload:before {
-  content: "\22";
+  content: "\e198";/* cambiato */
 }
 .glyphicon-cog:before {
-  content: "\23";
+  content: "\e019";/* cambiato */
 }
 .glyphicon-collapse-down:before {
-  content: "\24";
+  content: "\e159";/* cambiato */
 }
 .glyphicon-collapse-up:before {
-  content: "\25";
+  content: "\e160";/* cambiato */
 }
 .glyphicon-comment:before {
-  content: "\26";
+  content: "\e111";/* cambiato */
 }
 .glyphicon-dashboard:before {
-  content: "\27";
+  content: "\e141";/* cambiato */
 }
 .glyphicon-download:before {
-  content: "\28";
+  content: "\e026";/* cambiato */
 }
 .glyphicon-download-alt:before {
-  content: "\29";
+  content: "\e166"; /* cambiato */
 }
 .glyphicon-edit:before {
-  content: "\2a";
+  content: "\e065"; /* cambiato */
 }
 .glyphicon-envelope:before {
-  content: "\2b";
+  content: "\2709";/* cambiato */
 }
 .glyphicon-export:before {
-  content: "\2e";
+  content: "\e170"; /* cambiato */
 }
 .glyphicon-fast-backward:before {
-  content: "\3b";
+  content: "\e070"; /* cambiato */
 }
 .glyphicon-fast-forward:before {
-  content: "\3c";
+  content: "\e076"; /* cambiato */
 }
 .glyphicon-file:before {
-  content: "\3d";
+  content: "\e022"; /* cambiato */
 }
 .glyphicon-filter:before {
-  content: "\3e";
+  content: "\e138";/* cambiato */
 }
 .glyphicon-flag:before {
-  content: "\3f";
+  content: "\e034";/* cambiato */
 }
 .glyphicon-flash:before {
-  content: "\40";
+  content: "\e162"; /* cambiato */
 }
 .glyphicon-floppy-open:before {
-  content: "\5d";
+  content: "\e176"; /* cambiato */
 }
 .glyphicon-floppy-remove:before {
-  content: "\5e";
+  content: "\e174";/* cambiato */
 }
 .glyphicon-floppy-save:before {
-  content: "\5f";
+  content: "\e175";/* cambiato */
 }
 .glyphicon-floppy-saved:before {
-  content: "\60";
+  content: "\e173";/* cambiato */
 }
 .glyphicon-font:before {
-  content: "\7d";
+  content: "\e047"; /* cambiato */
 }
 .glyphicon-forward:before {
-  content: "\7e";
+  content: "\7e";/* saltato */
 }
 .glyphicon-fullscreen:before {
-  content: "\5c";
+  content: "\e140"; /* cambiato */
 }
 .glyphicon-globe:before {
-  content: "\e000";
+  content: "\e135"; /* cambiato */
 }
 .glyphicon-hand-down:before {
-  content: "\e001";
+  content: "\e130"; /* cambiato */
 }
 .glyphicon-hand-left:before {
-  content: "\e002";
+  content: "\e128";/* cambiato */
 }
 .glyphicon-hand-right:before {
-  content: "\e003";
+  content: "\e127";/* cambiato */
 }
 .glyphicon-hand-up:before {
-  content: "\e004";
+  content: "\e129";/* cambiato */
 }
 .glyphicon-hdd:before {
-  content: "\e005";
+  content: "\e121";/* cambiato */
 }
 .glyphicon-heart:before {
-  content: "\e006";
+  content: "\e005";/* cambiato */
 }
 .glyphicon-home:before {
-  content: "\e007";
+  content: "\e021";/* cambiato */
 }
 .glyphicon-import:before {
-  content: "\e008";
+  content: "\e169";/* cambiato */
 }
 .glyphicon-inbox:before {
-  content: "\e009";
+  content: "\e028";/* cambiato */
 }
 .glyphicon-info-sign:before {
-  content: "\e00a";
+  content: "\e086";/* cambiato */
 }
 .glyphicon-italic:before {
-  content: "\e00b";
+  content: "\e049";/* cambiato */
 }
 .glyphicon-leaf:before {
-  content: "\e00c";
+  content: "\e103"; /* cambiato */
 }
 .glyphicon-link:before {
-  content: "\e00d";
+  content: "\e144"; /* cambiato */
 }
 .glyphicon-list:before {
-  content: "\e00e";
+  content: "\e012";/* cambiato */
 }
 .glyphicon-log-in:before {
-  content: "\e011";
+  content: "\e161";/* cambiato */
 }
 .glyphicon-log-out:before {
-  content: "\e012";
+  content: "\e163";/* cambiato */
 }
 .glyphicon-magnet:before {
-  content: "\e013";
+  content: "\e012";/* cambiato */
 }
 .glyphicon-map-marker:before {
-  content: "\e014";
+  content: "\e062"; /* cambiato */
 }
 .glyphicon-minus:before {
-  content: "\e015";
+  content: "\2212";/* cambiato */
 }
 .glyphicon-minus-sign:before {
-  content: "\e016";
+  content: "\e082";/* cambiato */
 }
 .glyphicon-move:before {
-  content: "\e017";
+  content: "\e068";/* cambiato */
 }
 .glyphicon-new-window:before {
-  content: "\e018";
+  content: "\e164";/* cambiato */
 }
 .glyphicon-off:before {
-  content: "\e019";
+  content: "\e017";/* cambiato */
 }
 .glyphicon-ok:before {
-  content: "\e01a";
+  content: "\e013";/* cambiato */
 }
 .glyphicon-ok-circle:before {
-  content: "\e01b";
+  content: "\e089";/* cambiato */
 }
 .glyphicon-ok-sign:before {
-  content: "\e01c";
+  content: "\e084";/* cambiato */
 }
 .glyphicon-open:before {
-  content: "\e01d";
+  content: "\e167";/* cambiato */
 }
 .glyphicon-paperclip:before {
-  content: "\e01e";
+  content: "\e142";/* cambiato */
 }
 .glyphicon-pause:before {
-  content: "\e01f";
+  content: "\e073";/* cambiato */
 }
 .glyphicon-pencil:before {
-  content: "\e020";
+  content: "\270f";/* cambiato */
 }
 .glyphicon-phone:before {
-  content: "\e021";
+  content: "\e145";/* cambiato */
 }
 .glyphicon-picture:before {
-  content: "\e022";
+  content: "\e060"; /* cambiato */
 }
 .glyphicon-plane:before {
-  content: "\e023";
+  content: "\e171";/* saltato */
 }
 .glyphicon-play:before {
-  content: "\e024";
+  content: "\e072";/* cambiato */
 }
 .glyphicon-play-circle:before {
-  content: "\e025";
+  content: "\e029";/* cambiato */
 }
 .glyphicon-plus:before {
-  content: "\e026";
+  content: "\002b";/* cambiato */
 }
 .glyphicon-plus-sign:before {
-  content: "\e027";
+  content: "\e081"; /* cambiato */
 }
 .glyphicon-print:before {
-  content: "\e028";
+  content: "\e045";/* cambiato */
 }
 .glyphicon-pushpin:before {
-  content: "\e029";
+  content: "\e146";/* cambiato */
 }
 .glyphicon-qrcode:before {
-  content: "\e02a";
+  content: "\e039";/* cambiato */
 }
 .glyphicon-question-sign:before {
-  content: "\e02b";
+  content: "\e085";/* cambiato */
 }
 .glyphicon-random:before {
-  content: "\e02c";
+  content: "\e110";/* cambiato */
 }
 .glyphicon-record:before {
-  content: "\e02d";
+  content: "\e165";/* cambiato */
 }
 .glyphicon-refresh:before {
-  content: "\e02e";
+  content: "\e031";/* cambiato */
 }
 .glyphicon-remove:before {
-  content: "\e02f";
+  content: "\e014";/* cambiato */
 }
 .glyphicon-remove-circle:before {
-  content: "\e030";
+  content: "\e088";/* cambiato */
 }
 .glyphicon-remove-sign:before {
-  content: "\e031";
+  content: "\e083";/* cambiato */
 }
 .glyphicon-repeat:before {
-  content: "\e032";
+  content: "\e030";/* cambiato */
 }
 .glyphicon-resize-full:before {
-  content: "\e033";
+  content: "\e096"; /* cambiato */
 }
 .glyphicon-resize-horizontal:before {
-  content: "\e034";
+  content: "\e120"; /* cambiato */
 }
 .glyphicon-resize-small:before {
-  content: "\e035";
+  content: "\e097";/* cambiato */
 }
 .glyphicon-resize-vertical:before {
-  content: "\e036";
+  content: "\e119";/* cambiato */
 }
 .glyphicon-retweet:before {
-  content: "\e037";
+  content: "\e115";/* cambiato */
 }
 .glyphicon-road:before {
-  content: "\e038";
+  content: "\e024";/* cambiato */
 }
 .glyphicon-save:before {
-  content: "\e039";
+  content: "\e166"; /* cambiato */
 }
 .glyphicon-screenshot:before {
-  content: "\e03b";
+  content: "\e087"; /* cambiato */
 }
 .glyphicon-search:before {
-  content: "\e03c";
+  content: "\e003";/* cambiato */
 }
 .glyphicon-send:before {
-  content: "\e03d";
+  content: "\e171"; /* cambiato */
 }
 .glyphicon-share:before {
-  content: "\e03e";
+  content: "\004c";/* cambiato */
 }
 .glyphicon-share-alt:before {
-  content: "\e03f";
+  content: "\004b";/* cambiato */
 }
 .glyphicon-shopping-cart:before {
-  content: "\e040";
+  content: "\e116";/* cambiato */
 }
 .glyphicon-signal:before {
-  content: "\e041";
+  content: "\e018";/* cambiato */
 }
 .glyphicon-sort:before {
-  content: "\e042";
+  content: "\e150";/* cambiato */
 }
 .glyphicon-sort-by-alphabet:before {
-  content: "\e043";
+  content: "\e151";/* cambiato */
 }
 .glyphicon-sort-by-alphabet-alt:before {
-  content: "\e044";
+  content: "\e152"; /* cambiato */
 }
 .glyphicon-sort-by-attributes:before {
-  content: "\e045";
+  content: "\e155";/* cambiato */
 }
 .glyphicon-sort-by-attributes-alt:before {
-  content: "\e046";
+  content: "\e156";/* cambiato */
 }
 .glyphicon-star:before {
-  content: "\e047";
+  content: "\e006";/* cambiato */
 }
 .glyphicon-star-empty:before {
-  content: "\e048";
+  content: "\e007";/* cambiato */
 }
 .glyphicon-stats:before {
-  content: "\e049";
+  content: "\e185";/* cambiato */
 }
 .glyphicon-step-backward:before {
-  content: "\e04a";
+  content: "\e069";/* cambiato */
 }
 .glyphicon-step-forward:before {
-  content: "\e04b";
+  content: "\e075"; /* cambiato */
 }
 .glyphicon-stop:before {
-  content: "\e04c";
+  content: "\e074"; /* cambiato */
 }
 .glyphicon-tag:before {
-  content: "\e04d";
+  content: "\e041";/* cambiato */
 }
 .glyphicon-tags:before {
-  content: "\e04e";
+  content: "\e042"; /* cambiato */
 }
 .glyphicon-tasks:before {
-  content: "\e04f";
+  content: "\e137";/* saltato */
 }
 .glyphicon-text-height:before {
-  content: "\e050";
+  content: "\e050"; /* cambiato */
 }
 .glyphicon-text-width:before {
-  content: "\e051";
+  content: "\e051";/* cambiato */
 }
 .glyphicon-th-list:before {
-  content: "\e054";
+  content: "\e012";/* cambiato */
 }
 .glyphicon-thumbs-down:before {
-  content: "\e055";
+  content: "\e126"; /* cambiato */
 }
 .glyphicon-thumbs-up:before {
-  content: "\e056";
+  content: "\e125"; /* cambiato */
 }
 .glyphicon-time:before {
-  content: "\e057";
+  content: "\e023";/* cambiato */
 }
 .glyphicon-tint:before {
-  content: "\e058";
+  content: "\e064";/* cambiato */
 }
 .glyphicon-transfer:before {
-  content: "\e059";
+  content: "\e178"; /* cambiato */
 }
 .glyphicon-unchecked:before {
-  content: "\e05b";
+  content: "\e157"; /* cambiato */
 }
 .glyphicon-upload:before {
-  content: "\e05c";
+  content: "\e027"; /* cambiato */
 }
 .glyphicon-usd:before {
-  content: "\e05d";
+  content: "\e148"; /* cambiato */
 }
 .glyphicon-user:before {
-  content: "\e05e";
+  content: "\e008"; /* cambiato */
 }
 .glyphicon-warning-sign:before {
-  content: "\e05f";
+  content: "\e107"; /* saltato */
 }
 .glyphicon-wrench:before {
-  content: "\e060";
+  content: "\e136"; /* cambiato */
 }
 .glyphicon-zoom-in:before {
-  content: "\e061";
+  content: "\e015";/* cambiato */
 }
 .glyphicon-zoom-out:before {
-  content: "\e062";
+  content: "\e016";/* cambiato */
 }
 .glyphicon-trash:before {
-  content: "\e05a";
+  content: "\e020"; /* cambiato */
 }
 .glyphicon-saved:before {
-  content: "\e03a";
+  content: "\e168"; /* cambiato */
 }
 .glyphicon-1-catalog:before {
-  content: "\e063";
+  content: "\006a"; /* cambiato */
 }
 .glyphicon-exclamation-sign:before {
-  content: "\2c";
+  content: "\e101"; /* cambiato */
 }
 .glyphicon-expand:before {
-  content: "\e064";
+  content: "\e158"; /* cambiato */
 }
 .glyphicon-lock:before {
-  content: "\2d";
+  content: "\e033"; /* cambiato */
 }
 .glyphicon-list-alt:before {
-  content: "\e00f";
+  content: "\e032"; /* cambiato */
 }
 .glyphicon-check:before {
-  content: "\30";
+  content: "\e067";/* cambiato */
 }
 .glyphicon-floppy-disk:before {
-  content: "\5b";
-}
-.glyphicon-1-full-screen:before {
-  content: "\67";
+  content: "\e172";/* cambiato */
 }
 .glyphicon-1-max-size:before {
-  content: "\71";
+  content: "\004d"; /* cambiato */
 }
 .glyphicon-adjust:before {
-  content: "\4b";
+  content: "\e063"; /* cambiato */
 }
 .glyphicon-calendar:before {
-  content: "\59";
+  content: "\e109"; /* cambiato */
 }
 .glyphicon-folder-close:before {
-  content: "\7b";
+  content: "\e117"; /* cambiato */
 }
 .glyphicon-folder-open:before {
-  content: "\7c";
-}
-.glyphicon-text-colour:before {
-  content: "\e065";
+  content: "\e118";/* cambiato */
 }
 .glyphicon-text-background:before {
-  content: "\e066";
+  content: "\e243"; /* cambiato */
 }
 .glyphicon-scissors:before {
-  content: "\e067";
+  content: "\e226"; /* cambiato */
 }
+
+.glyphicon-text-colour:before {
+  content: "\e242"; /* cambiato */
+}
+
 .glyphicon-paste:before {
-  content: "\e068";
+  content: "\e206";  /* cambiato */
 }
 .glyphicon-level-up:before {
-  content: "\e069";
+  content: "\e204"; /* cambiato */
 }
 .glyphicon-hourglass:before {
-  content: "\e06a";
+  content: "\e231b";/* cambiato */
 }
 .glyphicon-duplicate:before {
-  content: "\e06b";
+  content: "\e224"; /* cambiato */
 }
 .glyphicon-copy:before {
-  content: "\e06c";
+  content: "\e205"; /* cambiato */
 }
 .glyphicon-compressed:before {
-  content: "\e06d";
+  content: "\e181"; /* cambiato */
 }
 .glyphicon-bookmark:before {
-  content: "\e06e";
+  content: "\e044"; /* cambiato */
 }
 .glyphicon-book:before {
-  content: "\e06f";
+  content: "\e043"; /* cambiato */
 }
 .glyphicon-alert:before {
-  content: "\e070";
+  content: "\e209"; /* saltato */
 }
-.glyphicon-fullscreen-2:before {
-  content: "\e052";
-}
+
 .glyphicon-th:before {
-  content: "\e071";
+  content: "\e011"; /* saltato */
 }
 .glyphicon-th-large:before {
-  content: "\e053";
+  content: "\e010"; /* saltato */
 }
 .glyphicon-eye-open:before {
-  content: "\3a";
+  content: "\e105"; /* saltato */
 }
 .glyphicon-eye-close:before {
-  content: "\2f";
+  content: "\e106";/* saltato */
 }
