@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Navbar MapStore2</title>
 <meta name="author" content="GeoSolutions & Chef Studio" />
 <link rel="shortcut icon" href="favicon.ico">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-<link href="../../theme/default/css/css.css" rel="stylesheet">
-<link href="../../theme/default/css/custom.css" rel="stylesheet">
-<link href="../../theme/default/css/font.css" rel="stylesheet">
+<link href="../../theme/default/theme.css" rel="stylesheet">
+<link href="../../theme/default/css/icons.css" rel="stylesheet">
 <link href="../../theme/default/css/map.css" rel="stylesheet">
+<link href="css/samples.css" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
@@ -54,7 +55,6 @@
     </div>
     </li>
 
-    <li class="divider-horiz"></li>
 
            <!--dropdown options-->
     <li class="dropdown">
@@ -63,23 +63,25 @@
     		<div class="glyphicon glyphicon-menu-hamburger"></div>
    		</button></a>
 
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu list-group">
+          
           <li class="bar">OPTIONS
-          <button type="button" class="close close-xs" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
+          <button type="button" class="close" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
           </li>
-          <li><a href="#"> <span class="glyphicon glyphicon-home pull-left option-icon"></span>BACK TO HOME</a></li>
-          <li class="divider"></li>
-          <li><button data-toggle="modal" data-target="#print"><span class="glyphicon glyphicon-print pull-left option-icon"></span>PRINT/SCREENSHOT</button></li>
-          <li class="divider"></li>
-          <li><a href="#"><span class="glyphicon glyphicon-share-alt pull-left option-icon"></span>SHARE</a></li>
-          <li class="divider"></li>
-          <li><a href="#"><span class="glyphicon glyphicon-cog pull-left option-icon"></span>OPTIONS</a></li>
-          <li class="divider"></li>
-          <li><a href="#"><span class="glyphicon glyphicon-question-sign pull-left option-icon"></span>HELP</a></li>
+          
+          <li><a class="list-group-item" href="#"> <span class="glyphicon glyphicon-home pull-left option-icon"></span>BACK TO HOME</a></li>
+          
+          <li><a class="list-group-item" href="#"> <span class="glyphicon glyphicon-print pull-left option-icon"></span>PRINT/SCREENSHOT</a></li>
+          
+          <li><a class="list-group-item" href="#"><span class="glyphicon glyphicon-share-alt pull-left option-icon"></span>SHARE</a></li>
+          
+          <li><a class="list-group-item" href="#"><span class="glyphicon glyphicon-cog pull-left option-icon"></span>OPTIONS</a></li>
+          
+          <li><a class="list-group-item" href="#"><span class="glyphicon glyphicon-question-sign pull-left option-icon"></span>HELP</a></li>
         </ul>
     </li>
 
-    <li class="divider-horiz"></li>
+    
 
     <!--dropdown account-->
     <li class="dropdown">
@@ -89,17 +91,17 @@
     		<div class="glyphicon glyphicon-user"></div>
    		</button></a>
 
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu list-group">
           <li class="bar">ACCOUNT
-           <button type="button" class="close close-xs" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
+           <button type="button" class="close" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
           </li>
-          <li><a href="#">CHANGE PASSWORD</a></li>
-          <li class="divider"></li>
-          <li class="list-with-button"><span class="padding15"> Administrator</span>
+          
+          <li><a class="list-group-item" href="#"> <span class="glyphicon glyphicon-lock pull-left option-icon"></span>CHANGE PASSWORD</a></li>
+          <li class="padding-base" class="list-group-item"> Administrator
            <button type="button" class=" btn btn-sm btn-primary float-right">
     		LOG OUT
-   		   </button></a>
-          </li>
+   		   </button></li>
+		  </li>
         </ul>
     </li>
 
@@ -128,43 +130,37 @@
 
  <!--control map icons-->
     <div class="absolute-map">
-  <div class="btn-group-vertical shadow">
+  <div class=" button-group-vertical shadow">
 
     <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-1-position-1"></div>
     </button>
 
-    <div class="divider-map"></div>
 
     <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-zoom-in"></div>
     </button>
 
-    <div class="divider-map"></div>
 
     <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-zoom-out"></div>
     </button>
 
-    <div class="divider-map"></div>
 
     <button type="button" class="btn btn-primary square-button ">
-    <div class="glyphicon glyphicon-1-screen-back"></div>
+    <div class="glyphicon glyphicon-1-screen-backward"></div>
     </button>
 
-    <div class="divider-map"></div>
 
     <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-1-screen-forward"></div>
     </button>
 
-    <div class="divider-map"></div>
 
      <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-1-max-size"></div>
     </button>
 
-    <div class="divider-map"></div>
 
      <button type="button" class="btn btn-primary square-button ">
     <div class="glyphicon glyphicon-option-horizontal"></div>
@@ -217,10 +213,6 @@
   		</select>
         </label>
     	</div>
-
-        <div class="line">
-   	    100km
-        </div>
 
 	</div>
 

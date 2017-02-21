@@ -1,0 +1,195 @@
+.floatstop {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.margin-base{
+	margin: @padding-large-vertical @padding-large-horizontal
+}
+
+button:focus {
+	outline: 0 !important;
+}
+
+.border-grey {
+	border:grey solid 1px;
+}
+
+.shadow{
+    -webkit-box-shadow: -1px 1px 5px 1px rgba(94,94,94,1);
+	-moz-box-shadow: -1px 1px 5px 1px rgba(94,94,94,1);
+	box-shadow: -1px 1px 5px 1px rgba(94,94,94,1);
+}
+
+.shadow-soft{
+    -webkit-box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+	-moz-box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+	box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+}
+
+.option-icon { /*- icon in lists -*/
+	font-size: @font-size-base;
+	margin-right: @padding-medium-horizontal;
+	color: @brand-primary;
+}
+
+/*--------------------- btn with icon -----------------------------------*/
+
+.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{
+	color:#fff;background-color:@link-primary-light-color;border-color:none; /*remove active color */
+}
+
+.no-border{
+	border:none
+}
+
+.no-border:hover, .no-border:active{
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+}
+
+
+/* ---------- btn SQUARE ---------------------------------- */
+
+.square-button {
+	height: @square-btn-size;
+	width: @square-btn-size;
+	line-height:1;
+	border-radius:0;
+	padding:0;
+	margin:0;
+}
+
+.square-button-md {
+	height: @square-btn-medium-size;
+	width: @square-btn-medium-size;
+	border-radius:0;
+	line-height:1;
+	padding:0;
+	margin:0;
+}
+
+.square-button-sm {
+	height: @square-btn-small-size;
+	width: @square-btn-small-size;
+	border-radius:0;
+	line-height:1;
+	padding:0;
+	margin:0;
+}
+
+.glyphicon {
+	 font-family: inherit
+}
+
+.square-button .glyphicon {
+	font-size: @icon-size;
+	padding: @padding-top-square 0 0 @padding-left-square;
+	margin:0;
+}
+
+.square-button-md .glyphicon {
+	font-size: @icon-size-md;
+	padding: @padding-top-square-md 0 0 @padding-left-square-md;
+	margin:0;
+}
+
+.square-button-sm .glyphicon {
+	font-size: @icon-size-sm;
+	padding: @padding-top-square-sm 0 0 @padding-left-square-sm;
+	margin:0;
+}
+
+.list-group .list-group-item:not(:last-child)  {
+	border-bottom: 1px solid @gray-lighter;
+	
+}
+
+.list-group list-group-item a:hover {
+	background-color: @gray-lighter;
+}
+
+.list-group li:not(:last-child)  {
+	border-bottom: 1px solid @gray-lighter;
+}
+
+/* ---------- btn groups ---------------------------------- */
+
+.button-group {
+	height: @square-btn-size;
+}
+.button-group .btn:not(:last-child) {
+	border-right: 1px solid @link-primary-light-color;
+}
+
+.button-group-md {
+ 	height: @square-btn-medium-size;
+}
+.button-group-md .btn:not(:last-child) {
+	border-right: 1px solid @link-primary-light-color;
+}
+
+.button-group-sm {
+ 	height: @square-btn-small-size;
+}
+.button-group-sm .btn:not(:last-child) {
+	border-right: 1px solid @link-primary-light-color;
+}
+
+.button-group-vertical {
+	width: @square-btn-size;
+}
+.button-group-vertical .btn:not(:last-child) {
+	border-bottom: 1px solid @link-primary-light-color;
+	display: block;
+}
+
+.button-group-vertical-md {
+ 	width: @square-btn-medium-size;
+}
+.button-group-vertical-md .btn:not(:last-child) {
+	border-bottom: 1px solid @link-primary-light-color;
+	display: block;
+}	
+
+.button-group-vertical-sm {
+ 	width: @square-btn-small-size;
+}
+.button-group-vertical-sm .btn:not(:last-child) {
+	border-bottom: 1px solid @link-primary-light-color;
+	display: block;
+}			
+
+/* --------------------CSS FONT MAPPING for base_with_less.html-------------------- */  
+
+.font-map  ul li{
+list-style:none;
+height: 40px;
+float:left;
+width:290px;
+margin-right:15px;
+margin-bottom: 30px;
+}
+
+.font-map  ul li .glyphicon{
+font-size:30px;
+border: 1px solid white;
+}
+
+.font-map ul li input  {
+border: 1px solid @gray;
+font-size:@font-size-base;
+border-radius: 4px;
+}
+
+.btn-icons-list .btn {
+	margin: 2px;
+}

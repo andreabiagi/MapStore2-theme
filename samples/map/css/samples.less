@@ -1,0 +1,1029 @@
+@import "../../../theme/default/variables.less";
+
+.floatstop {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+a:hover, a:active, a:link, a:focus  {
+	text-decoration:none
+}
+
+.left15 {
+	margin-left:15px;
+}
+
+.margin10-top {
+	margin-top:10px;
+}
+
+.padding10-right {
+	padding-right:10px;
+}
+
+.margin10 {
+	margin:10px;
+}
+
+.margin15 {
+	margin:15px;
+}
+
+.bottom15 {
+	margin-bottom: 15px;
+}
+
+.bottom5 {
+	margin-bottom: 5px;
+}
+
+.pagging-left15{
+	padding-left:15px;
+}
+
+.padding15 {
+	padding: 15px;
+}
+
+.padding5 {
+	padding:5px;
+}
+
+.padding0 {
+	padding:0;
+}
+
+.padding-base{
+	padding: @padding-large-vertical @padding-large-horizontal
+}
+
+.green{
+	color:@brand-success;
+}
+
+.red{
+	color:@brand-danger;
+}
+
+/* ------------------------------------navbar------------------------------- */
+
+.navbar-dx{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.navbar-dx .navbar-account{
+	background-color:#ffffff;
+	float:right;
+	color:black;
+	font-weight:bold;
+	font-size:@font-size-small;
+}
+
+.navbar-dx .navbar-account a{
+	color:black;
+}
+
+.navbar-dx ul{
+	padding:0;
+}
+
+.navbar-dx li{
+	float:left;
+	list-style:none;
+}
+
+.navbar-dx .dropdown-menu {
+	margin:0;
+}
+
+.navbar-dx .dropdown-menu li { /* formattare dropdown nel piccolo */
+	width:290px;	
+}
+
+.navbar-dx .search-wrap{
+	display:none;
+	height:@square-btn-size;
+}
+.button-group-md-container{ /* container for btn in layer tools */
+	height:@square-btn-medium-size;
+}
+
+.sidebar .title-tool {
+	color: @brand-primary;
+	font-weight: bold;
+	width:290px;
+	padding: @padding-large-vertical @padding-large-horizontal;
+	border-bottom: 1px solid @gray-lighter;
+}
+
+.bar {
+	background-color: @brand-primary;
+	color: #ffffff;
+	padding: @padding-large-vertical @padding-large-horizontal;
+	font-weight: normal;
+}
+
+.dropdown-menu .close-xs {
+	display: block;
+	background-color: transparent !important;
+	height:;
+	width:;
+	float: right;
+	margin-top: -16px;
+}
+
+
+.navbar-dx .btn {
+	border-left: 1px solid @link-primary-light-color;
+}
+
+.select-cord {
+	width: 130px;
+}
+
+.select-format {
+	width: 80px;
+}
+
+.groups-area {
+	width: 260px;
+	height: 100px;
+}
+
+.map-container {
+	height: 100px;
+	margin-top: @padding-small-vertical;
+	background-color:pink;
+}
+
+.absolute-map {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+.search-wrap input-group {
+	display: none;
+}
+
+.visible-xs {
+	display: block;
+	float: left;
+}
+
+/* ------------------------------------checkbox new------------------------------- */
+
+input[type=checkbox],
+input[type=radio] {
+        opacity: 0;
+        position: absolute;
+        z-index: 12;
+}
+
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+        outline: none !important;
+}
+
+input[type=checkbox]+.lbl,
+input[type=radio]+.lbl {
+font-family: "mapstore2";
+        position: relative;
+        z-index: 11;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        min-height: 20px;
+        min-width: 20px;
+        font-weight: normal;
+}
+
+
+input[type=checkbox]+.lbl::before,
+input[type=radio]+.lbl::before {
+		font-family: "mapstore2";
+        font-size: 22px;
+        color: @brand-primary;
+        content: "";
+        background-color: @gray-lighter;
+        border: 1px solid @brand-primary; /* color checkbox border */
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 0;
+        display: inline-block;
+        text-align: left;
+        vertical-align: left;
+        height: 20px; /* checkbox size */
+		width: 20px;
+        line-height: 13px;
+		font-size:19px;
+}
+
+input[type=checkbox]:checked+.lbl::before,
+input[type=radio]:checked+.lbl::before {
+		font-family: "mapstore2";
+        display: inline-block;
+        content: '\e013';
+        background-color: @gray-lighter;
+        border-color: @brand-primary;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+}
+
+input[type=checkbox]:hover+.lbl::before,
+input[type=radio]:hover+.lbl::before,
+input[type=checkbox]+.lbl:hover::before,
+input[type=radio]+.lbl:hover::before {
+        border-color: @brand-primary;
+}
+
+input[type=checkbox]:active+.lbl::before,
+input[type=radio]:active+.lbl::before,
+input[type=checkbox]:checked:active+.lbl::before,
+input[type=radio]:checked:active+.lbl::before {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type=checkbox]:disabled+.lbl::before,
+input[type=radio]:disabled+.lbl::before,
+input[type=checkbox][disabled]+.lbl::before,
+input[type=radio][disabled]+.lbl::before,
+input[type=checkbox].disabled+.lbl::before,
+input[type=radio].disabled+.lbl::before {
+        background-color: #DDD !important;
+        border-color: @brand-primary !important;
+        box-shadow: none !important;
+        color: #BBB;
+}
+
+input[type=radio]+.lbl::before {
+        border-radius: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+}
+
+input[type=radio]:checked+.lbl::before {
+        content: "\e013";
+}
+
+.check{
+	font-size:30px;
+}
+
+/* ----------label---------------- */
+.label-modal {
+	position:relative; 
+	width: 70px;
+}
+
+.label-modal:after {
+    content: '1';
+    font: 23px "mapstore2", monospace;
+    color: @brand-primary;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    right: 2px;
+    top: 2px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}	
+
+.label-modal:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:25px;
+    background:@gray-lighter;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}	
+
+.label-width-lg {
+	width: 130px;
+}
+
+.label-width-md {
+	width: 90px;
+}
+
+.label-scale {
+	position:relative;
+}
+
+.label-scale {position:relative;}
+
+.label-scale:after {
+    content:'\0070';
+    font:23px "mapstore2", monospace;
+    color:@brand-primary;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+    right:2px; 
+	top:-4px;
+    position:absolute;
+    pointer-events:none;
+}
+
+.label-scale:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:25px;
+    background:@gray-lighter;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+/* --------------manager pages--------------------------------------------------- */
+
+.user-img {
+	height:@square-btn-medium-size;
+	margin-bottom: @padding-small-vertical; 
+}
+
+
+
+/*------------------- nav tool button-right -------------------------------------*/
+
+.absolute-info {
+	position: absolute;
+	bottom: 5px;
+	right: @square-btn-size + @padding-large-horizontal;
+	height: @square-btn-size;
+}
+
+.info-container{
+	height:@square-btn-size;
+	margin-right:10px;
+}
+
+.lat-long{
+	height:@square-btn-size;
+	padding:2px 3px;
+	background-color:#ffffff;
+	font-size: @font-size-small;	
+}
+
+#scale { /* scale widget */
+   height: 25px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-color: #fff;
+   color: @gray-dark;
+   cursor: pointer;
+   position:relative;
+   margin:0;
+}
+
+/* ------------------scale dx-bottom menu------------------------------ */
+
+.scale {
+	height: @square-btn-size;
+}
+
+.scale .line {
+	background-color:#ffffff;
+	height:25px;
+}
+
+/* -------------------Panel OPTIONS modal body ------------------------- */
+
+.modal-body textarea {
+  margin-top:5px;
+  width:100%;
+  padding:5px;
+  border:1px solid @brand-primary;
+}
+
+.modal-body input {
+  width:100%;
+  margin-top:3px;	
+  margin-bottom:15px;
+  padding:5px;
+  border:1px solid @brand-primary;
+}
+
+.modal-body .list-with-button .position-download {
+	margin-top:;
+}
+
+.modal-body .list-with-button button:hover {
+	background-color: @link-primary-light-color;
+}
+.modal-body .qrcode {
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+	margin-top: @padding-base-vertical ;
+	margin-bottom: @padding-base-vertical ;
+}
+
+/* ------ OPACITY LAYER AND OPTIONS LAYER  --------*/
+.modal-height{
+	height:15px;
+}
+
+.noUi-target {
+}
+
+.noUi-background {
+    background:@gray-light;
+}
+
+.noUi-horizontal {
+    height: 2px;
+	width: 260px;
+	margin:auto;
+}
+.noUi-target {
+    position: relative;
+    direction: ltr;
+}
+
+.noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 23px;
+    height: 23px;
+    top: -10px;
+}
+
+.noUi-handle {
+    background: @brand-primary;
+    cursor: default;
+	border-radius:50px;
+}
+
+.noUi-handle {
+    position: relative;
+    z-index: 1;
+}
+.noUi-target, .noUi-target * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.noUi-target {
+    position: relative;
+    direction: ltr;
+}
+
+.label-print:after {
+    content:'c';
+    font:20px "mapstore2", monospace;
+    color:@brand-primary;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+    right:4px; top:6px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+}
+
+.label-print:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:25px;
+    background:@gray-lighter;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+/*----------------------- INFO PANEL  ---------------------------------- */
+.info-panel {
+	width:290px;
+}
+
+.info-wrap{
+	width:290px;
+	margin:auto;
+}
+
+.info-panel .arrows{
+	height:@square-btn-size;
+	margin:15px 15px
+}
+
+.info-space {
+	height:350px;
+	width:290px;
+	margin:auto;
+	overflow:auto;
+	padding:15px;
+}
+
+.info-title {
+	font-weight:bold
+}
+
+/* print */
+
+.panel580 {
+	width:290px;
+}
+
+.wrap565{
+	width:290px;
+	padding:15px 0 15px 15px;
+}
+
+.box260{
+	width:260px;
+}
+
+.opacity-legend{
+	opacity:0.3;
+}
+
+.label-print {
+	position:relative; width: 120px;
+}
+/*----------------------- working tool ---------------------------------*/
+
+.folder-item {
+	padding:5px 0 0 10px;
+}
+	
+.sidebar {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.sidebar .nav-working ul {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar .nav-working ul li {
+	list-style: none;
+	float: inherit;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.sidebar .close-sidebar {
+	height: @square-btn-size;
+	width: @square-btn-size;
+}
+
+.list-group .list-group-item {
+	padding: @padding-large-vertical @padding-large-horizontal;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+
+.working-option{
+	float:right;
+	background-color:yellow;
+	margin-left: @padding-small-horizontal;
+}
+
+.option-folder {
+	float:left;
+	padding-right: @padding-small-horizontal;
+}
+
+.sidebar .working ul li ul li {
+	padding-left: @padding-large-horizontal; 
+}
+
+.sidebar .working .draw-button button {
+	background-color: #ffffff;
+	border: 0;
+	width: 290px;
+	padding: @padding-large-vertical @padding-large-horizontal;
+	text-align: left;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+
+.sidebar .working .draw-button button:hover {
+	background-color: @gray-lighter;
+}
+
+.sidebar .working add-layer {
+	background-color: @brand-primary;
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+	margin: -5px 10px 10px 10px;
+	float: right;
+	font-size: 14px;
+}
+/*------------------ navbar ------------------------------------------------------*/
+
+.work-button {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+/*------------------------------------- home/welcome page ----------------------- */
+
+.mapstore-header {
+	height: 400px;
+	width: 100%;
+	background-image:url(../img/mapstore-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: center;
+}
+
+.mapstore-header-manage {
+	height: 200px;
+	width: 100%;
+	background-image:url(../img/manage-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: center;
+	background-color:@brand-primary;
+}
+
+.navbar-home{
+	z-index:1000;
+}
+
+.customer-logo{
+	height:@square-btn-size;
+	visibility:hidden;
+}
+
+.log-in-home{
+	display:none;
+}
+
+.footer {
+	margin-top: 50px;
+	padding-top: 30px;
+	text-align: center;
+	color: @link-primary-light-color;
+	margin-bottom: 30px;
+	border-top: 1px solid @link-primary-light-color; 
+}
+
+.col {
+	margin-top: 30px;
+}
+
+.col-no-margin {
+	margin: 0;
+}
+
+.map-title {
+	padding: @padding-large-vertical @padding-large-horizontal;
+}
+
+.map-thumb {
+	max-width: 100%;
+	overflow: hidden;
+	border: 1px solid @gray-lighter;
+	transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition:all 0.3s ease-in;
+    -o-transition:all 0.3s ease-in;
+}
+
+.map-thumb .map-body {
+ 	height: 180px;
+}
+
+.map-thumb-bg {
+	background: url(../img/background-map.jpg);
+}
+
+.map-thumb-001 { 
+	background: url(../img/img-index/001.jpg);
+	background-size: cover;
+}
+
+.map-thumb-002 { 
+	background: url(../img/img-index/002.jpg);
+	background-size: cover;
+}
+
+.map-thumb-003 { 
+	background: url(../img/img-index/003.jpg);
+	background-size: cover;
+}
+
+.map-thumb-004 { 
+	background: url(../img/img-index/004.jpg);
+	background-size: cover;
+}
+
+.map-thumb-005 { 
+	background: url(../img/img-index/005.jpg);
+	background-size: cover;
+}
+
+.map-thumb-006 { 
+	background: url(../img/img-index/006.jpg);
+	background-size: cover;
+}
+
+.map-thumb-007 { 
+	background: url(../img/img-index/007.jpg);
+	background-size: cover;
+}
+
+.map-thumb-008 { 
+	background: url(../img/img-index/008.jpg);
+	background-size: cover;
+}
+
+.map-thumb-009 { 
+	background: url(../img/img-index/009.jpg);
+	background-size: cover;
+}
+.map-thumb-010 { 
+	background: url(../img/img-index/010.jpg);
+	background-size: cover;
+}
+
+.map-thumb-011 { 
+	background: url(../img/img-index/011.jpg);
+	background-size: cover;
+}
+
+.map-thumb-012 { 
+	background: url(../img/img-index/012.jpg);
+	background-size: cover;
+}
+
+.map-thumb-013 { 
+	background: url(../img/img-index/013.jpg);
+	background-size: cover;
+}
+
+.map-thumb-014 { 
+	background: url(../img/img-index/014.jpg);
+	background-size: cover;
+}
+
+.map-thumb-manager { 
+	background: url(../img/img-index/manager.jpg);
+	background-size: cover;
+}
+
+.map-thumb-add-1 { 
+	background: url(../img/img-index/add-1.jpg);
+	background-size: cover;
+}
+
+.map-thumb-add-2 { 
+	background: url(../img/img-index/add-2.jpg);
+	background-size: cover;
+}
+
+.map-thumb-add-3 { 
+	background: url(../img/img-index/add-3.jpg);
+	background-size: cover;
+}
+
+.map-thumb-buttons { 
+	background: url(../img/img-index/buttons.jpg);
+	background-size: cover;
+}
+
+.map-thumb-print { 
+	background: url(../img/img-index/print.jpg);
+	background-size: cover;
+}
+
+.map-thumb-catalog { 
+	background: url(../img/img-index/catalog.jpg);
+	background-size: cover;
+}
+
+.search-wrap-home .search-wrap { 
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+	position:absolute;
+	bottom:15px;
+}
+
+.search-wrap-home .btn-default {
+	border:none; 
+}
+
+/* ---------------------catalog-------------------- */
+
+.list-catalog ul{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+
+.list-catalog li{
+	width:260px;
+	float: left;
+	margin:0 15px 0 0;
+}
+
+/* --------------    button right  --------------- */
+
+.button-right {
+	background-color:#ffffff;
+	width: 290px;
+}
+
+/* -------------------------------- over 768px ----------------------------------------------------------------------------------------------------------- */
+
+/* --------------    end small size layout  --------------- */
+
+
+@media (max-width: 767px) {
+.navbar-dx .open .dropdown-menu { /* formattare dropdown nel piccolo */
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 290px;
+}
+}
+
+@media (min-width: 768px) {
+.navbar-dx .search-wrap {
+	width: 300px;
+	height: @square-btn-size;
+	display: block;
+}
+
+.navbar-dx .search-wrap .btn-default {
+	border:none;
+}
+
+.navbar-dx  .dropdown-menu {
+    left: auto;
+    right: 0;
+ }
+	
+.menu {
+	position:absolute;
+	bottom:20px;
+	left:20px;	
+}
+
+.customer-logo{
+	visibility:visible;
+}
+
+.with-love{
+	position:absolute;
+	width:90px;
+	height:27px;
+	bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	background-image:url(../img/made-in-italy-logo.png);
+	background-size:contain;
+}
+
+.map-logo{
+	position:absolute;
+	width:90px;
+	height:27px;
+	bottom:5px;
+	left:5px;
+	background-image:url(../img/mapstore2_logo.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+  
+.visible-xs {
+	display: none;
+}
+
+/* working tool */
+.sidebar {
+	width: 290px;
+}
+
+/* home */
+
+.text-home{
+	width:100%;
+	margin:auto;
+}
+
+
+.navbar-dx .search-wrap {
+	width: 500px;
+	height: @square-btn-size;
+}
+
+.search-wrap-home .search-wrap { 
+	width: 580px;
+}
+
+.wrap565{
+	width:565px;
+}
+
+.text-home{
+	width:70%;
+}
+
+.log-in-home{
+	display:block;
+}
+
+a:hover .map-thumb {
+ 	-webkit-box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+	-moz-box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+	box-shadow: -1px 1px 5px 1px rgba(154,154,154,1);
+}
+
+/* INFO PANEL */
+.info-panel {
+	width:290px;
+}
+
+.info-wrap{
+	width:290px;
+}
+
+/* PRINT big */
+
+.panel565 {
+	width:565px;
+}
+
+.box260{
+	margin:0;
+	margin:0 15px 0 0;
+}
+
+
+/* -------------------------------- over 1200px ----------------------------------------------------------------------------------------------------------- */
+}
+ @media (min-width: 1200px) {
+
+.navbar-dx {
+	width:;
+}
+
+
+/* INFO PANEL */
+.info-panel {
+	width:580px;
+}
+
+.info-panel .modal-header {
+	width:580px;
+}
+
+.info-panel .modal-content {
+	width:580px;
+}
+
+.info-space {
+	width:580px;
+}
+
+.info-wrap{
+	width:580px;
+}
+}

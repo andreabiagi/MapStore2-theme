@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
 <link href="../../theme/default/theme.css" rel="stylesheet">
-<link href="../../theme/default/css/icons.css" rel="stylesheet">
+<link href="../../theme/default/css/font.css" rel="stylesheet">
 <link href="../../theme/default/css/map.css" rel="stylesheet">
 <link href="css/samples.css" rel="stylesheet">
 
@@ -17,23 +17,52 @@
 </head>
 
 <body>
-<div class="modal-dialog panel565 shadow">
 
-	<div class="modal-content">
+   <div class="modal fade" id="print" role="dialog">
+   <div class="modal-dialog">
+   
+   <!--Panel print print--> 
+    <div class="modal-content">
+        <div class="modal-header">
+          	 <button type="button" class="close" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
+          	<p class="modal-title">LOG IN</p>
+      </div>
+        
+        <div class="modal-body padding-base">
+			USER NAME<br/>
+		  <input type="text" id="#" name="#" required>
+ 
+          PASSWORD<br/>
+		  <input type="text" id="#" name="#" required>
+			
+ 		   <button type="button" class=" btn btn-primary float-right btn-sm">
+    		LOG IN
+   		   </button>
+           <div class="floatstop"></div>
+	</div>
+       
+    </div>
+    </div>
+    </div>
+    
+    
+<div class="modal-dialog panel580 shadow">
+
+<div class="modal-content">
     
          <div class="modal-header">
        <button type="button" class="close" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
 		<p class="modal-title">CATALOG</p>
         </div>
         
-	<div class="modal-body wrap565">      
+	<div class="modal-body">      
         
         <div class="list-catalog">
         <ul>
         	<li class="float-left">
             <strong>TITLE</strong>
             <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
+            <button type="button" class="btn-sm btn-success float-right">
     		ADD TO MAP
    		 	</button>
             </li>
@@ -41,7 +70,7 @@
             <li class="float-left">
             <strong>TITLE</strong>
             <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
+            <button type="button" class="btn-sm btn-success float-right">
     		ADD TO MAP
    		 	</button>
             </li>
@@ -49,7 +78,7 @@
             <li class="float-left">
             <strong>TITLE</strong>
             <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
+            <button type="button" class="btn-sm btn-success float-right">
     		ADD TO MAP
    		 	</button>
             </li>
@@ -57,43 +86,23 @@
             <li class="float-left">
             <strong>TITLE</strong>
             <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
-    		ADD TO MAP
-   		 	</button>
-            </li>
-            
-            <li class="float-left">
-            <strong>TITLE</strong>
-            <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
-    		ADD TO MAP
-   		 	</button>
-            </li>
-            
-            <li class="float-left">
-            <strong>TITLE</strong>
-            <div class="map-container bottom5"></div>
-            <button type="button" class="btn btn-sm btn-success float-right">
+            <button type="button" class="btn-sm btn-success float-right">
     		ADD TO MAP
    		 	</button>
             </li>
         
-        </ul>
+       </ul>
        </div><!-- list catalog-->
-       
-        <div class="page">
         
-
-        </div>
         
         
         <div class="floatstop"></div>
         
-	</div><!-- close modal body-->
+	</div><!-- close modal body, wrap 580-->
     
-    </div><!-- close modal content-->
+</div><!-- close modal content-->
     
-            <nav>
+<nav>
   <ul class="pagination left15">
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
@@ -115,7 +124,7 @@
   </ul>
 </nav>
 
-</div><!-- close wrap565-->
+</div><!-- close wrap580-->
 		
      
 

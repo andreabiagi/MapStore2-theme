@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Modal Options MapStore2</title>
 <meta name="author" content="GeoSolutions & Chef Studio" />
 <link rel="shortcut icon" href="favicon.ico">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-<link href="../../theme/default/css/css.css" rel="stylesheet">
-<link href="../../theme/default/css/custom.css" rel="stylesheet">
-<link href="../../theme/default/css/font.css" rel="stylesheet">
+<link href="../../theme/default/theme.css" rel="stylesheet">
+<link href="../../theme/default/css/icons.css" rel="stylesheet">
 <link href="../../theme/default/css/map.css" rel="stylesheet">
+<link href="css/samples.css" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
@@ -30,7 +31,7 @@
    		</button></a>
         
         <ul class="dropdown-menu">
-          <li class="bar">OPTIONS
+          <li class="bar">OPTIONS</li>
 
           <li><button data-toggle="modal" data-target="#print"><span class="glyphicon glyphicon-print pull-left option-icon"></span>Active modal</button></li>
          
@@ -52,9 +53,9 @@
           <p class="modal-title">OPTIONS</p>
         </div>
         
-        <div class="modal-body">
-          <ul>
-           <li class="list-with-button padding15">
+        <div class="modal-body list-group">
+         
+           <div class="list-group-item"> 
             LANGUAGES
             
                    <label id="language" class="float-right label-scale">
@@ -65,10 +66,10 @@
             <option>RU</option>
   		</select>
         </label>
-          </li>
-          <li class="divider"></li>
+          </div>
+         
           
-          <li class="list-with-button padding15">
+          <div class="list-group-item">
             COORDINATES INDICATOR <br />
             
                    <label id="language" class="float-right label-scale">
@@ -79,13 +80,16 @@
             <option>EPSG:900913</option>
   		</select>
         </label>
-        <button type="button" class=" btn btn-primary float-right btn-sm bottom15">
+        <div class="floatstop"></div>
+        <button type="button" class=" btn btn-primary float-right btn-sm margin10-top">
     		SHOW COORDINATES
    		   </button>
-          </li>
-          <li class="divider"></li>
+           <div class="floatstop"></div>
+          </div>
           
-          <li class="list-with-button padding15">
+          
+          
+          <div class="list-group-item">
             GET FEATURE INFO FORMAT <br />
             
                    <label id="language" class="float-right label-scale">
@@ -96,19 +100,19 @@
             <option>TEXT</option>
   		</select>
         </label>
-          </li>
-          <li class="divider"></li>
+        <div class="floatstop"></div>
+          </div>
+         
           
-          <li class="padding15">
+          <div class="list-group-item">
           VERSION
           <div class="float-right">v 2.1.15</div>
-          </li>
-          <li class="divider"></li>
-          <li> 
-          <a href="#">CREDITS</a>
-          </li>
-          </ul>
-        </div>
+          </div>
+          
+          <a href="#" class="list-group-item" >CREDITS</a>
+         
+          
+     </div>
        
     </div>
     
