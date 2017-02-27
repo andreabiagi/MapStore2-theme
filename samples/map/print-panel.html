@@ -1,22 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Navbar MapStore2</title>
 <meta name="author" content="GeoSolutions & Chef Studio" />
 <link rel="shortcut icon" href="favicon.ico">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-<link href="../../theme/default/css/css.css" rel="stylesheet">
-<link href="../../theme/default/css/custom.css" rel="stylesheet">
-<link href="../../theme/default/css/font.css" rel="stylesheet">
+<link href="../../theme/default/theme.css" rel="stylesheet">
+<link href="../../theme/default/icons.css" rel="stylesheet">
 <link href="../../theme/default/css/map.css" rel="stylesheet">
+<link href="css/samples.css" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 
 <body>
-<div class="modal-dialog panel580">
+<div class="modal-dialog panel565">
 
 	<div class="modal-content">
     
@@ -25,7 +26,7 @@
 		<p class="modal-title">PRINT</p>
         </div>
         
-	<div class="modal-body wrap580">      
+	<div class="modal-body wrap565">      
         
         <div class="box260 float-left">
         <strong>TITLE</strong>
@@ -35,8 +36,8 @@
         <textarea class="bottom15" placeholder="Write a description here..."></textarea>
         
         <strong>SHEET SIZE</strong>
-        <label class="float-right label-modal">
-    	<select class="form-control" id="scale">
+        <label class="float-right label-scale">
+    	<select class="form-control scale" id="scale">
     		<option>A3</option>
     		<option>A4</option>
     		<option>A5</option>
@@ -72,16 +73,16 @@
             
             <strong>FONT SETTINGS</strong><br/>
             
-            <label class="label-modal float-left">
-    		<select class="form-control" id="scale">
+            <label class="label-scale float-left">
+    		<select class="form-control scale">
     		<option>Verdana</option>
     		<option>Areal</option>
-    		<option>Times New Roman</option>
+    		<option>Roboto</option>
 			</select>
         	</label>
             
            <label class="label-scale float-left">
-    		<select class="form-control" id="scale">
+    		<select class="form-control scale">
     		<option>12 pt</option>
     		<option>14 pt</option>
     		<option>16 pt</option>
@@ -89,14 +90,16 @@
 			</select>
         	</label>             
            
-    		<button type="button" class="btn btn-primary square-button-md float-right left15">
+        <div class="button-group-md bottom15 float-right">
+    		<button type="button" class="btn btn-primary square-button-md float-left">
     		<div class="glyphicon glyphicon-italic"></div>
-     	</button>
+     		</button>
             
-            <button type="button" class="btn btn-primary square-button-md float-right">
+            <button type="button" class="btn btn-primary square-button-md float-left">
     		<div class="glyphicon glyphicon-bold"></div>
-    		</button>
-    		<br/><br/>
+    		</button>	
+        </div>
+        <div class="floatstop"></div>
             
             <strong>FORCE LABEL'S TITLE</strong> 
         	<input type="checkbox" name="legend-page" value="force-label"/>
@@ -109,7 +112,7 @@
          <div class="float-left">   
             <strong>ICON SIZE</strong>
             <label class="float-right label-scale">
-    		<select class="form-control" id="scale">
+    		<select class="form-control scale">
     		<option>20</option>
     		<option>18</option>
     		<option>16</option>
@@ -120,7 +123,7 @@
          <div class="float-right">     
             <strong>DPI</strong>
             <label class="label-scale float-right">
-    		<select class="form-control" id="scale">
+    		<select class="form-control scale">
     		<option>96</option>
     		<option>150</option>
     		<option>300</option>
@@ -141,7 +144,7 @@
         
         <strong>MAP SCALE</strong>
             <label class="float-right label-scale ">
-    		<select class="form-control" id="scale">
+    		<select class="form-control scale">
     		<option>20</option>
     		<option>18</option>
     		<option>16</option>
@@ -150,14 +153,14 @@
             
          <strong>RESOLUTION</strong>
             <label class="float-right label-scale">
-    		<select class="form-control" id="scale">
+    		<select class="form-control scale">
     		<option>300px</option>
     		<option>150px</option>
     		<option>96px</option>
 			</select>
         	</label><br/><br/>
             
-            <button type="button" class="btn-sm btn-primary float-right">
+            <button type="button" class="btn btn-sm btn-primary float-right">
     		PRINT PDF
    		 	</button>
         

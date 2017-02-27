@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Layers Tool MapStore2</title>
 <meta name="author" content="GeoSolutions & Chef Studio" />
 <link rel="shortcut icon" href="favicon.ico">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-<link href="../../theme/default/css/css.css" rel="stylesheet">
-<link href="../../theme/default/css/custom.css" rel="stylesheet">
-<link href="../../theme/default/css/font.css" rel="stylesheet">
+<link href="../../theme/default/theme.css" rel="stylesheet">
+<link href="../../theme/default/icons.css" rel="stylesheet">
 <link href="../../theme/default/css/map.css" rel="stylesheet">
+<link href="css/samples.css" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
@@ -18,93 +19,146 @@
 <body>
 <div class="sidebar shadow">
 	<div class="close-sidebar float-left">
-    <button type="button" class="close-sidebar btn-default" data-dismiss="modal"><div class="glyphicon glyphicon-1-close"></div></button>
+     <button type="button" class="btn btn-default square-button no-border">
+    		<div class="glyphicon glyphicon-1-close"></div>
+     	</button>
 	</div>
     
     <!-- 3 buttons of work -->
-    <ul class="float-right">
+<div class="nav-working">
+    <div class="button-group float-right">
         
-        	<li>
-            <button type="button" class="btn btn-primary square-button">
+            <button type="button" class="btn btn-primary float-left square-button active">
     		<div class="glyphicon glyphicon-1-layer"></div>
     		</button>
-        	</li>
-            <li class="divider-horiz"></li>
-        	<li>
-            <button type="button" class="btn btn-primary square-button">
+            
+            <button type="button" class="btn btn-primary float-left square-button">
     		<div class="glyphicon glyphicon-1-map"></div>
     		</button>
-        	</li>
-            <li class="divider-horiz"></li>
-        	<li>
-            <button type="button" class="btn btn-primary square-button">
-    		<div class="glyphicon glyphicon-pencil"></div>
+        	
+            <button type="button" class="btn btn-primary float-left square-button">
+    		<div class="glyphicon glyphicon-1-stilo"></div>
     		</button>
-        	</li>
-            
-     </ul>
+        	
+	</div>
+</div> <!--nav-working -->
     <div class="working floatstop">
     	 <div class="title-tool">LAYERS</div>
-       
-        <ul class="list-group">
-        
-            <li class="divider"></li>
-            
-            <li class="list-group-item">
-            <button class="btn btn-default square-button-md no-border working-eye" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-eye-open"></span></button>
-            <div class="layer-name"> Layer</div>
-            <button class="btn btn-default square-button-md no-border working-option" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-cog"></span></button>
-            <button class="btn btn-default square-button-md no-border working-adjust" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-adjust"></span></button>
-            </li>
-            
-             <li class="divider"> </li>
-            
-             <li class="list-group-item">
-            <button class="btn btn-default square-button-md no-border working-eye" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-eye-open"></span></button>
-            <button class="btn btn-default square-button-md no-border working-folder" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-folder-close"></span></button>
-            <div class="layer-name"> Layer</div>
-            <button class="btn btn-default square-button-md no-border working-option" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-cog"></span></button>
-            <button class="btn btn-default square-button-md no-border working-adjust" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-adjust"></span></button>
-            </li>
-            
-             <li class="list-group-item">
-            <button class="btn btn-default square-button-md no-border working-eye" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-eye-open"></span></button>
-            <div class="layer-name"> Layer</div>
-            <button class="btn btn-default square-button-md no-border working-option" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-cog"></span></button>
-            <button class="btn btn-default square-button-md no-border working-adjust" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-adjust"></span></button>
-            </li>
-            
-             <li class="list-group-item">
-            <button class="btn btn-default square-button-md no-border working-eye" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-eye-open"></span></button>
-            <div class="layer-name"> Layer</div>
-            <button class="btn btn-default square-button-md no-border working-option" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-cog"></span></button>
-            <button class="btn btn-default square-button-md no-border working-adjust" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-adjust"></span></button>
-            </li>
-            
-            <li class="divider"> </li>
-            
-             <li class="list-group-item">
-            <button class="btn btn-default square-button-md no-border working-eye" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-eye-open"></span></button>
-            <div class="layer-name"> Layer</div>
-            <button class="btn btn-default square-button-md no-border working-option" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-cog"></span></button>
-            <button class="btn btn-default square-button-md no-border working-adjust" data-toggle="#" data-target="#"><span class="glyphicon glyphicon-adjust"></span></button>
-            </li>
-            
-            
-        </ul>
-            
-            <li class="divider"></li>
-            
-            <li class="list-group-item">
-            <button class="btn btn-sm btn-primary float-right" data-toggle="#" data-target="#">ADD LAYER</button>
-
-        </ul>
+      
+<div class="list-group">
+        		 
+        <a class=" list-group-item" href="#">LAYER 1
     	
-    </div><!-- close working -->
+        <div class="button-group-md-container">
+   	    <div class="button-group-md float-right">
+         
+		 	
+            <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+    			<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-fullscreen"></div>
+    			</button>
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    		</button>       
+    			
+                
+        </div>
+        </div>
+        </a>
+       
 
-</div>
-    
+<a class="list-group-item" href="#"> <span class="glyphicon glyphicon-folder-open pull-left option-icon"></span>FOLDER 1
+    		<div class="button-group-md-container">
+     		<div class="button-group-md float-right ">
+		  		<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    		</button>   
+			</div>
+    		</div>
+     	
+        <div class="folder-item" href="#" >LAYER 3
+    			
+                <div class="button-group-md-container">
+   				<div class=" button-group-md float-right">
+		 		<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+    			<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-fullscreen"></div>
+    			</button>
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    		</button>   
+                </div>
+                </div>        
+		</div>
+        
+        <div class="folder-item" href="#">LAYER 4
+    			<div class="button-group-md-container">
+   				<div class=" button-group-md float-right ">
+		 		<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+    			<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-fullscreen"></div>
+    			</button>
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    			</button>   
+                </div>  
+                </div>      
+		</div>                         
+		
+</a>
 
+<a class="list-group-item" href="#"> <span class="glyphicon glyphicon-folder-close pull-left option-icon"></span>FOLDER 2
+    		<div class="button-group-md-container">
+     		<div class="button-group-md float-right ">
+		  		<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    		</button>   
+			</div>
+            </div>
+</a>
+
+<a class=" list-group-item" href="#">LAYER 5
+    	<div class="button-group-md-container">
+   	    <div class="button-group-md float-right">
+         
+		 	<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-1-menu-manage"></div>
+    			</button>    
+                    
+    			<button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-fullscreen"></div>
+    			</button>
+                
+             <button type="button" class="btn btn-primary float-left square-button-md ">
+    				<div class="glyphicon glyphicon-remove-circle"></div>
+    		</button>   
+        </div>        
+        </div>
+        </a>
+</div>   <!--list group itlem --> 
+                        
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
